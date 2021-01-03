@@ -1,0 +1,24 @@
+{
+    "commands": [
+        {
+            "output": "0,1,NORTH",
+            "input": "PLACE 0,0,NORTH\nMOVE\nREPORT"
+        },
+        {
+            "output": "0,0,WEST",
+            "input": "PLACE 0,0,NORTH\nLEFT\nREPORT"
+        },
+        {
+            "output": "",
+            "input": "MOVE\nREPORT"
+        },
+        {
+            "output": "",
+            "input": "LEFT\nMOVE\nREPORT"
+        },
+        {
+            "output": "5,5,NORTH",
+            "input": "LEFT\nMOVE\nREPORT\nPLACE 5,5,NORTH\nREPORT"
+        }
+    ]
+}
